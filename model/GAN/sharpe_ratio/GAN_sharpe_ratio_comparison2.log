@@ -1,0 +1,40 @@
+2024-08-20 20:34:44,840 - INFO - Sequence length: 7
+2024-08-20 20:34:44,841 - INFO - Risk free rate: 0.02
+2024-08-20 20:34:44,841 - INFO - Trading days: 252
+2024-08-20 20:34:44,841 - INFO - Sharpe Ratio: -2.496
+2024-08-20 20:34:44,841 - INFO - Final Profit: $73.19
+2024-08-20 20:34:44,848 - INFO - Sequence length: 15
+2024-08-20 20:34:44,848 - INFO - Risk free rate: 0.02
+2024-08-20 20:34:44,848 - INFO - Trading days: 252
+2024-08-20 20:34:44,848 - INFO - Sharpe Ratio: -2.129
+2024-08-20 20:34:44,848 - INFO - Final Profit: $46.44
+2024-08-20 20:34:44,854 - INFO - Sequence length: 30
+2024-08-20 20:34:44,854 - INFO - Risk free rate: 0.02
+2024-08-20 20:34:44,855 - INFO - Trading days: 252
+2024-08-20 20:34:44,855 - INFO - Sharpe Ratio: -1.945
+2024-08-20 20:34:44,855 - INFO - Final Profit: $-1.57
+2024-08-20 20:34:44,861 - INFO - Sequence length: 60
+2024-08-20 20:34:44,861 - INFO - Risk free rate: 0.02
+2024-08-20 20:34:44,861 - INFO - Trading days: 252
+2024-08-20 20:34:44,861 - INFO - Sharpe Ratio: 1.775
+2024-08-20 20:34:44,861 - INFO - Final Profit: $14.02
+2024-08-20 20:35:09,144 - INFO - Sequence length: 7
+2024-08-20 20:35:09,145 - INFO - Risk free rate: 0.00
+2024-08-20 20:35:09,145 - INFO - Trading days: 252
+2024-08-20 20:35:09,145 - INFO - Sharpe Ratio: -2.495
+2024-08-20 20:35:09,145 - INFO - Final Profit: $73.19
+2024-08-20 20:35:09,155 - INFO - Sequence length: 15
+2024-08-20 20:35:09,156 - INFO - Risk free rate: 0.00
+2024-08-20 20:35:09,156 - INFO - Trading days: 252
+2024-08-20 20:35:09,156 - INFO - Sharpe Ratio: -2.129
+2024-08-20 20:35:09,156 - INFO - Final Profit: $46.44
+2024-08-20 20:35:09,165 - INFO - Sequence length: 30
+2024-08-20 20:35:09,165 - INFO - Risk free rate: 0.00
+2024-08-20 20:35:09,165 - INFO - Trading days: 252
+2024-08-20 20:35:09,165 - INFO - Sharpe Ratio: -1.945
+2024-08-20 20:35:09,165 - INFO - Final Profit: $-1.57
+2024-08-20 20:35:09,175 - INFO - Sequence length: 60
+2024-08-20 20:35:09,176 - INFO - Risk free rate: 0.00
+2024-08-20 20:35:09,176 - INFO - Trading days: 252
+2024-08-20 20:35:09,176 - INFO - Sharpe Ratio: 1.786
+2024-08-20 20:35:09,176 - INFO - Final Profit: $14.02

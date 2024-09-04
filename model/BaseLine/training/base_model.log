@@ -1,0 +1,50 @@
+INFO:root:GRU Model RMSE Training set: 4.986834820609037
+INFO:root:LSTM Model RMSE Training set: 7.596326279025381
+2024-08-04 15:42:51,540 - INFO - Train on 7 days period
+2024-08-04 15:42:51,541 - INFO - Prediction 1 day/days ahead
+2024-08-04 15:43:38,683 - INFO - GRU Model RMSE Training set: 7.370
+2024-08-04 15:44:21,243 - INFO - LSTM Model RMSE Training set: 9.827
+2024-08-04 15:44:21,505 - INFO - Train on 15 days period
+2024-08-04 15:44:21,506 - INFO - Prediction 1 day/days ahead
+2024-08-04 15:45:30,119 - INFO - GRU Model RMSE Training set: 7.279
+2024-08-04 15:46:35,167 - INFO - LSTM Model RMSE Training set: 5.680
+2024-08-04 15:46:35,432 - INFO - Train on 30 days period
+2024-08-04 15:46:35,432 - INFO - Prediction 1 day/days ahead
+2024-08-04 15:48:56,156 - INFO - GRU Model RMSE Training set: 6.000
+2024-08-04 15:51:24,504 - INFO - LSTM Model RMSE Training set: 6.803
+2024-08-04 15:51:24,790 - INFO - Train on 60 days period
+2024-08-04 15:51:24,791 - INFO - Prediction 1 day/days ahead
+2024-08-04 15:55:47,255 - INFO - GRU Model RMSE Training set: 5.895
+2024-08-04 15:59:51,845 - INFO - LSTM Model RMSE Training set: 6.276
+2024-08-04 16:48:28,577 - INFO - Train on 7 days period
+2024-08-04 16:48:28,578 - INFO - Prediction 7 day/days ahead
+2024-08-04 16:48:53,049 - INFO - GRU Model RMSE Training set: 5.795
+2024-08-04 16:49:33,171 - INFO - LSTM Model RMSE Training set: 7.427
+2024-08-04 16:49:33,449 - INFO - Train on 15 days period
+2024-08-04 16:49:33,449 - INFO - Prediction 7 day/days ahead
+2024-08-04 16:50:05,508 - INFO - GRU Model RMSE Training set: 7.163
+2024-08-04 16:50:42,227 - INFO - LSTM Model RMSE Training set: 7.881
+2024-08-04 16:50:42,485 - INFO - Train on 30 days period
+2024-08-04 16:50:42,485 - INFO - Prediction 7 day/days ahead
+2024-08-04 16:51:54,953 - INFO - GRU Model RMSE Training set: 7.925
+2024-08-04 16:52:55,502 - INFO - LSTM Model RMSE Training set: 8.374
+2024-08-04 16:52:55,733 - INFO - Train on 60 days period
+2024-08-04 16:52:55,734 - INFO - Prediction 7 day/days ahead
+2024-08-04 16:54:40,637 - INFO - GRU Model RMSE Training set: 6.057
+2024-08-04 16:56:58,242 - INFO - LSTM Model RMSE Training set: 7.546
+2024-08-04 16:56:58,584 - INFO - Train on 7 days period
+2024-08-04 16:56:58,585 - INFO - Prediction 30 day/days ahead
+2024-08-04 16:57:24,129 - INFO - GRU Model RMSE Training set: 9.989
+2024-08-04 16:58:02,652 - INFO - LSTM Model RMSE Training set: 10.249
+2024-08-04 16:58:02,940 - INFO - Train on 15 days period
+2024-08-04 16:58:02,940 - INFO - Prediction 30 day/days ahead
+2024-08-04 16:58:39,126 - INFO - GRU Model RMSE Training set: 10.139
+2024-08-04 16:59:09,319 - INFO - LSTM Model RMSE Training set: 11.733
+2024-08-04 16:59:09,560 - INFO - Train on 30 days period
+2024-08-04 16:59:09,561 - INFO - Prediction 30 day/days ahead
+2024-08-04 17:00:18,109 - INFO - GRU Model RMSE Training set: 10.911
+2024-08-04 17:01:10,556 - INFO - LSTM Model RMSE Training set: 11.407
+2024-08-04 17:01:10,814 - INFO - Train on 60 days period
+2024-08-04 17:01:10,814 - INFO - Prediction 30 day/days ahead
+2024-08-04 17:03:45,034 - INFO - GRU Model RMSE Training set: 10.013
+2024-08-04 17:06:07,294 - INFO - LSTM Model RMSE Training set: 10.697

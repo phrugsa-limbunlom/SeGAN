@@ -1,0 +1,14 @@
+pandas
+numpy
+eikon
+pyyaml
+transformers
+scikit-learn
+tensorflow
+keras
+nixtla
+seaborn
+matplotlib
+yfinance
+torch
+statsmodels

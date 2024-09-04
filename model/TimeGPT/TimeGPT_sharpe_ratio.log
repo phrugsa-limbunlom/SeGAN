@@ -1,0 +1,9 @@
+2024-07-18 11:17:45,262 - INFO - File name : ../TimeGPT/test/all/real_and_predicted_price_D_152.csv
+2024-07-18 11:18:20,406 - INFO - Sharpe Ratio (Actual): 0.077
+2024-07-18 11:18:20,406 - INFO - Sharpe Ratio (Predicted): 0.018
+2024-07-18 11:18:20,407 - INFO - File name : ../TimeGPT/test/all/real_and_predicted_price_W_21.csv
+2024-07-18 11:18:20,411 - INFO - Sharpe Ratio (Actual): 0.340
+2024-07-18 11:18:20,411 - INFO - Sharpe Ratio (Predicted): 0.050
+2024-07-18 11:18:20,411 - INFO - File name : ../TimeGPT/test/all/real_and_predicted_price_ME_5.csv
+2024-07-18 11:18:20,417 - INFO - Sharpe Ratio (Actual): 0.294
+2024-07-18 11:18:20,417 - INFO - Sharpe Ratio (Predicted): 0.105

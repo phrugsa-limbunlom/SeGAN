@@ -1,0 +1,292 @@
+2024-08-04 19:43:16,775 - INFO - Date                     0
+HIGH                     0
+CLOSE                    0
+LOW                      0
+OPEN                     0
+COUNT                    0
+VOLUME                   0
+daily_sentiment_score    0
+S&P 500                  0
+Dow Jones                0
+NASDAQ 100               0
+Nikkei 225               0
+FTSE 100                 0
+DAX 30                   0
+dtype: int64
+2024-08-04 19:43:16,785 - INFO - Index(['HIGH', 'CLOSE', 'LOW', 'OPEN', 'COUNT', 'VOLUME',
+       'daily_sentiment_score', 'S&P 500', 'Dow Jones', 'NASDAQ 100',
+       'Nikkei 225', 'FTSE 100', 'DAX 30'],
+      dtype='object')
+2024-08-04 19:43:16,785 - INFO - (4017, 13)
+2024-08-04 19:43:16,785 - INFO - Train on 7 days period
+2024-08-04 19:43:16,785 - INFO - Prediction 1 day/days ahead
+2024-08-04 19:43:16,815 - INFO - Shape of X: (4009, 7, 12)
+2024-08-04 19:43:16,815 - INFO - Shape of next y: (4009, 1)
+2024-08-04 19:43:16,815 - INFO - Shape of y: (4009, 7, 1)
+2024-08-04 19:43:16,815 - INFO - Parameters : learning rate = 0.001, beta 1 = 0.9, beta 2 = 0.999, epsilon = 1e-07
+2024-08-04 19:43:16,815 - INFO - Epochs : 180
+2024-08-04 19:43:37,323 - INFO - Epoch 10, D Loss: 1.390, G Loss: 0.100
+2024-08-04 19:43:49,648 - INFO - Epoch 20, D Loss: 1.388, G Loss: 0.047
+2024-08-04 19:44:01,815 - INFO - Epoch 30, D Loss: 1.387, G Loss: 0.023
+2024-08-04 19:44:14,357 - INFO - Epoch 40, D Loss: 1.387, G Loss: 0.017
+2024-08-04 19:44:26,764 - INFO - Epoch 50, D Loss: 1.386, G Loss: 0.017
+2024-08-04 19:44:39,038 - INFO - Epoch 60, D Loss: 1.386, G Loss: 0.014
+2024-08-04 19:44:51,262 - INFO - Epoch 70, D Loss: 1.386, G Loss: 0.013
+2024-08-04 19:45:03,578 - INFO - Epoch 80, D Loss: 1.386, G Loss: 0.012
+2024-08-04 19:45:16,124 - INFO - Epoch 90, D Loss: 1.386, G Loss: 0.012
+2024-08-04 19:45:28,595 - INFO - Epoch 100, D Loss: 1.386, G Loss: 0.010
+2024-08-04 19:45:41,208 - INFO - Epoch 110, D Loss: 1.386, G Loss: 0.010
+2024-08-04 19:45:53,927 - INFO - Epoch 120, D Loss: 1.386, G Loss: 0.010
+2024-08-04 19:46:06,303 - INFO - Epoch 130, D Loss: 1.386, G Loss: 0.009
+2024-08-04 19:46:19,319 - INFO - Epoch 140, D Loss: 1.386, G Loss: 0.009
+2024-08-04 19:46:32,172 - INFO - Epoch 150, D Loss: 1.386, G Loss: 0.008
+2024-08-04 19:46:44,977 - INFO - Epoch 160, D Loss: 1.386, G Loss: 0.008
+2024-08-04 19:46:58,222 - INFO - Epoch 170, D Loss: 1.386, G Loss: 0.008
+2024-08-04 19:47:10,675 - INFO - Epoch 180, D Loss: 1.386, G Loss: 0.008
+2024-08-04 19:47:13,420 - INFO - GAN Train RMSE: 5.454
+2024-08-04 19:47:13,420 - INFO - Train on 15 days period
+2024-08-04 19:47:13,420 - INFO - Prediction 1 day/days ahead
+2024-08-04 19:47:13,468 - INFO - Shape of X: (4001, 15, 12)
+2024-08-04 19:47:13,468 - INFO - Shape of next y: (4001, 1)
+2024-08-04 19:47:13,468 - INFO - Shape of y: (4001, 15, 1)
+2024-08-04 19:47:13,468 - INFO - Parameters : learning rate = 0.001, beta 1 = 0.9, beta 2 = 0.999, epsilon = 1e-07
+2024-08-04 19:47:13,468 - INFO - Epochs : 180
+2024-08-04 19:47:43,220 - INFO - Epoch 10, D Loss: 1.390, G Loss: 0.086
+2024-08-04 19:48:01,290 - INFO - Epoch 20, D Loss: 1.387, G Loss: 0.033
+2024-08-04 19:48:19,591 - INFO - Epoch 30, D Loss: 1.387, G Loss: 0.025
+2024-08-04 19:48:37,759 - INFO - Epoch 40, D Loss: 1.386, G Loss: 0.017
+2024-08-04 19:48:56,967 - INFO - Epoch 50, D Loss: 1.386, G Loss: 0.015
+2024-08-04 19:49:15,255 - INFO - Epoch 60, D Loss: 1.386, G Loss: 0.014
+2024-08-04 19:49:33,881 - INFO - Epoch 70, D Loss: 1.386, G Loss: 0.012
+2024-08-04 19:49:52,529 - INFO - Epoch 80, D Loss: 1.386, G Loss: 0.012
+2024-08-04 19:50:11,093 - INFO - Epoch 90, D Loss: 1.386, G Loss: 0.011
+2024-08-04 19:50:29,756 - INFO - Epoch 100, D Loss: 1.386, G Loss: 0.010
+2024-08-04 19:50:48,611 - INFO - Epoch 110, D Loss: 1.386, G Loss: 0.010
+2024-08-04 19:51:07,304 - INFO - Epoch 120, D Loss: 1.386, G Loss: 0.009
+2024-08-04 19:51:25,956 - INFO - Epoch 130, D Loss: 1.386, G Loss: 0.008
+2024-08-04 19:51:44,703 - INFO - Epoch 140, D Loss: 1.386, G Loss: 0.008
+2024-08-04 19:52:03,045 - INFO - Epoch 150, D Loss: 1.386, G Loss: 0.008
+2024-08-04 19:52:22,355 - INFO - Epoch 160, D Loss: 1.386, G Loss: 0.008
+2024-08-04 19:52:40,531 - INFO - Epoch 170, D Loss: 1.386, G Loss: 0.007
+2024-08-04 19:52:58,905 - INFO - Epoch 180, D Loss: 1.386, G Loss: 0.007
+2024-08-04 19:53:01,661 - INFO - GAN Train RMSE: 5.226
+2024-08-04 19:53:01,662 - INFO - Train on 30 days period
+2024-08-04 19:53:01,662 - INFO - Prediction 1 day/days ahead
+2024-08-04 19:53:01,766 - INFO - Shape of X: (3986, 30, 12)
+2024-08-04 19:53:01,766 - INFO - Shape of next y: (3986, 1)
+2024-08-04 19:53:01,766 - INFO - Shape of y: (3986, 30, 1)
+2024-08-04 19:53:01,766 - INFO - Parameters : learning rate = 0.001, beta 1 = 0.9, beta 2 = 0.999, epsilon = 1e-07
+2024-08-04 19:53:01,767 - INFO - Epochs : 180
+2024-08-04 19:53:40,698 - INFO - Epoch 10, D Loss: 1.396, G Loss: 0.058
+2024-08-04 19:54:10,096 - INFO - Epoch 20, D Loss: 1.387, G Loss: 0.026
+2024-08-04 19:54:39,468 - INFO - Epoch 30, D Loss: 1.387, G Loss: 0.018
+2024-08-04 19:55:08,779 - INFO - Epoch 40, D Loss: 1.387, G Loss: 0.016
+2024-08-04 19:55:39,139 - INFO - Epoch 50, D Loss: 1.386, G Loss: 0.013
+2024-08-04 19:56:08,915 - INFO - Epoch 60, D Loss: 1.386, G Loss: 0.011
+2024-08-04 19:56:38,894 - INFO - Epoch 70, D Loss: 1.386, G Loss: 0.010
+2024-08-04 19:57:09,028 - INFO - Epoch 80, D Loss: 1.386, G Loss: 0.009
+2024-08-04 19:57:39,082 - INFO - Epoch 90, D Loss: 1.386, G Loss: 0.009
+2024-08-04 19:58:08,382 - INFO - Epoch 100, D Loss: 1.386, G Loss: 0.008
+2024-08-04 19:58:37,695 - INFO - Epoch 110, D Loss: 1.386, G Loss: 0.008
+2024-08-04 19:59:07,185 - INFO - Epoch 120, D Loss: 1.386, G Loss: 0.007
+2024-08-04 19:59:36,474 - INFO - Epoch 130, D Loss: 1.386, G Loss: 0.007
+2024-08-04 20:00:05,750 - INFO - Epoch 140, D Loss: 1.386, G Loss: 0.006
+2024-08-04 20:00:35,219 - INFO - Epoch 150, D Loss: 1.386, G Loss: 0.006
+2024-08-04 20:01:04,605 - INFO - Epoch 160, D Loss: 1.386, G Loss: 0.006
+2024-08-04 20:01:34,165 - INFO - Epoch 170, D Loss: 1.386, G Loss: 0.006
+2024-08-04 20:02:04,752 - INFO - Epoch 180, D Loss: 1.386, G Loss: 0.005
+2024-08-04 20:02:07,400 - INFO - GAN Train RMSE: 4.381
+2024-08-04 20:02:07,401 - INFO - Train on 60 days period
+2024-08-04 20:02:07,401 - INFO - Prediction 1 day/days ahead
+2024-08-04 20:02:07,427 - INFO - Shape of X: (3956, 60, 12)
+2024-08-04 20:02:07,427 - INFO - Shape of next y: (3956, 1)
+2024-08-04 20:02:07,427 - INFO - Shape of y: (3956, 60, 1)
+2024-08-04 20:02:07,427 - INFO - Parameters : learning rate = 0.001, beta 1 = 0.9, beta 2 = 0.999, epsilon = 1e-07
+2024-08-04 20:02:07,427 - INFO - Epochs : 180
+2024-08-04 20:03:18,168 - INFO - Epoch 10, D Loss: 1.391, G Loss: 0.076
+2024-08-04 20:04:12,939 - INFO - Epoch 20, D Loss: 1.389, G Loss: 0.027
+2024-08-04 20:05:07,949 - INFO - Epoch 30, D Loss: 1.387, G Loss: 0.021
+2024-08-04 20:06:03,448 - INFO - Epoch 40, D Loss: 1.387, G Loss: 0.018
+2024-08-04 20:06:58,029 - INFO - Epoch 50, D Loss: 1.386, G Loss: 0.016
+2024-08-04 20:07:52,371 - INFO - Epoch 60, D Loss: 1.386, G Loss: 0.013
+2024-08-04 20:08:45,940 - INFO - Epoch 70, D Loss: 1.386, G Loss: 0.011
+2024-08-04 20:09:39,431 - INFO - Epoch 80, D Loss: 1.386, G Loss: 0.011
+2024-08-04 20:10:34,454 - INFO - Epoch 90, D Loss: 1.386, G Loss: 0.010
+2024-08-04 20:11:29,211 - INFO - Epoch 100, D Loss: 1.386, G Loss: 0.009
+2024-08-04 20:12:23,669 - INFO - Epoch 110, D Loss: 1.386, G Loss: 0.009
+2024-08-04 20:13:18,410 - INFO - Epoch 120, D Loss: 1.386, G Loss: 0.008
+2024-08-04 20:14:14,930 - INFO - Epoch 130, D Loss: 1.386, G Loss: 0.007
+2024-08-04 20:15:13,774 - INFO - Epoch 140, D Loss: 1.386, G Loss: 0.007
+2024-08-04 20:16:10,592 - INFO - Epoch 150, D Loss: 1.386, G Loss: 0.006
+2024-08-04 20:17:06,733 - INFO - Epoch 160, D Loss: 1.386, G Loss: 0.006
+2024-08-04 20:18:03,805 - INFO - Epoch 170, D Loss: 1.386, G Loss: 0.006
+2024-08-04 20:19:03,792 - INFO - Epoch 180, D Loss: 1.386, G Loss: 0.006
+2024-08-04 20:19:11,068 - INFO - GAN Train RMSE: 4.081
+2024-08-04 23:02:46,628 - INFO - Date                     0
+HIGH                     0
+CLOSE                    0
+LOW                      0
+OPEN                     0
+COUNT                    0
+VOLUME                   0
+daily_sentiment_score    0
+S&P 500                  0
+Dow Jones                0
+NASDAQ 100               0
+Nikkei 225               0
+FTSE 100                 0
+DAX 30                   0
+dtype: int64
+2024-08-04 23:02:46,649 - INFO - Index(['HIGH', 'CLOSE', 'LOW', 'OPEN', 'COUNT', 'VOLUME',
+       'daily_sentiment_score', 'S&P 500', 'Dow Jones', 'NASDAQ 100',
+       'Nikkei 225', 'FTSE 100', 'DAX 30'],
+      dtype='object')
+2024-08-04 23:02:46,649 - INFO - (4017, 13)
+2024-08-04 23:02:46,650 - INFO - Train on 7 days period
+2024-08-04 23:02:46,650 - INFO - Prediction 1 day/days ahead
+2024-08-04 23:03:29,348 - INFO - Date                     0
+HIGH                     0
+CLOSE                    0
+LOW                      0
+OPEN                     0
+COUNT                    0
+VOLUME                   0
+daily_sentiment_score    0
+S&P 500                  0
+Dow Jones                0
+NASDAQ 100               0
+Nikkei 225               0
+FTSE 100                 0
+DAX 30                   0
+dtype: int64
+2024-08-04 23:03:29,354 - INFO - Index(['HIGH', 'CLOSE', 'LOW', 'OPEN', 'COUNT', 'VOLUME',
+       'daily_sentiment_score', 'S&P 500', 'Dow Jones', 'NASDAQ 100',
+       'Nikkei 225', 'FTSE 100', 'DAX 30'],
+      dtype='object')
+2024-08-04 23:03:29,355 - INFO - (4017, 13)
+2024-08-04 23:03:29,355 - INFO - Train on 7 days period
+2024-08-04 23:03:29,355 - INFO - Prediction 1 day/days ahead
+2024-08-04 23:03:59,200 - INFO - Date                     0
+HIGH                     0
+CLOSE                    0
+LOW                      0
+OPEN                     0
+COUNT                    0
+VOLUME                   0
+daily_sentiment_score    0
+S&P 500                  0
+Dow Jones                0
+NASDAQ 100               0
+Nikkei 225               0
+FTSE 100                 0
+DAX 30                   0
+dtype: int64
+2024-08-04 23:03:59,209 - INFO - Index(['Date', 'HIGH', 'CLOSE', 'LOW', 'OPEN', 'COUNT', 'VOLUME',
+       'daily_sentiment_score', 'S&P 500', 'Dow Jones', 'NASDAQ 100',
+       'Nikkei 225', 'FTSE 100', 'DAX 30'],
+      dtype='object')
+2024-08-04 23:03:59,210 - INFO - (4017, 14)
+2024-08-04 23:03:59,210 - INFO - Train on 7 days period
+2024-08-04 23:03:59,210 - INFO - Prediction 1 day/days ahead
+2024-08-04 23:03:59,229 - INFO - Shape of X: (4009, 7, 12)
+2024-08-04 23:03:59,229 - INFO - Shape of next y: (4009, 1)
+2024-08-04 23:03:59,229 - INFO - Shape of y: (4009, 7, 1)
+2024-08-04 23:03:59,229 - INFO - Parameters : learning rate = 0.001, beta 1 = 0.9, beta 2 = 0.999, epsilon = 1e-07
+2024-08-04 23:03:59,229 - INFO - Epochs : 180
+2024-08-04 23:04:26,688 - INFO - Epoch 10, D Loss: 1.393, G Loss: 0.086
+2024-08-04 23:04:39,124 - INFO - Epoch 20, D Loss: 1.387, G Loss: 0.031
+2024-08-04 23:04:51,974 - INFO - Epoch 30, D Loss: 1.387, G Loss: 0.022
+2024-08-04 23:05:04,905 - INFO - Epoch 40, D Loss: 1.387, G Loss: 0.018
+2024-08-04 23:05:17,629 - INFO - Epoch 50, D Loss: 1.386, G Loss: 0.015
+2024-08-04 23:05:30,284 - INFO - Epoch 60, D Loss: 1.386, G Loss: 0.013
+2024-08-04 23:05:42,932 - INFO - Epoch 70, D Loss: 1.386, G Loss: 0.011
+2024-08-04 23:05:55,921 - INFO - Epoch 80, D Loss: 1.386, G Loss: 0.011
+2024-08-04 23:06:08,489 - INFO - Epoch 90, D Loss: 1.386, G Loss: 0.010
+2024-08-04 23:06:20,752 - INFO - Epoch 100, D Loss: 1.386, G Loss: 0.009
+2024-08-04 23:06:34,399 - INFO - Epoch 110, D Loss: 1.386, G Loss: 0.009
+2024-08-04 23:06:46,924 - INFO - Epoch 120, D Loss: 1.386, G Loss: 0.008
+2024-08-04 23:06:58,957 - INFO - Epoch 130, D Loss: 1.386, G Loss: 0.008
+2024-08-04 23:07:10,970 - INFO - Epoch 140, D Loss: 1.386, G Loss: 0.008
+2024-08-04 23:07:22,789 - INFO - Epoch 150, D Loss: 1.386, G Loss: 0.007
+2024-08-04 23:07:34,552 - INFO - Epoch 160, D Loss: 1.386, G Loss: 0.007
+2024-08-04 23:07:46,315 - INFO - Epoch 170, D Loss: 1.386, G Loss: 0.006
+2024-08-04 23:07:58,060 - INFO - Epoch 180, D Loss: 1.386, G Loss: 0.006
+2024-08-04 23:08:02,583 - INFO - GAN Train RMSE: 4.729
+2024-08-04 23:08:02,721 - INFO - Train on 15 days period
+2024-08-04 23:08:02,721 - INFO - Prediction 1 day/days ahead
+2024-08-04 23:08:02,841 - INFO - Shape of X: (4001, 15, 12)
+2024-08-04 23:08:02,841 - INFO - Shape of next y: (4001, 1)
+2024-08-04 23:08:02,842 - INFO - Shape of y: (4001, 15, 1)
+2024-08-04 23:08:02,842 - INFO - Parameters : learning rate = 0.001, beta 1 = 0.9, beta 2 = 0.999, epsilon = 1e-07
+2024-08-04 23:08:02,842 - INFO - Epochs : 180
+2024-08-04 23:08:32,013 - INFO - Epoch 10, D Loss: 1.394, G Loss: 0.049
+2024-08-04 23:08:50,896 - INFO - Epoch 20, D Loss: 1.388, G Loss: 0.026
+2024-08-04 23:09:09,107 - INFO - Epoch 30, D Loss: 1.387, G Loss: 0.015
+2024-08-04 23:09:27,421 - INFO - Epoch 40, D Loss: 1.387, G Loss: 0.012
+2024-08-04 23:09:45,689 - INFO - Epoch 50, D Loss: 1.387, G Loss: 0.011
+2024-08-04 23:10:03,919 - INFO - Epoch 60, D Loss: 1.386, G Loss: 0.010
+2024-08-04 23:10:22,404 - INFO - Epoch 70, D Loss: 1.386, G Loss: 0.009
+2024-08-04 23:10:40,551 - INFO - Epoch 80, D Loss: 1.386, G Loss: 0.008
+2024-08-04 23:10:59,925 - INFO - Epoch 90, D Loss: 1.386, G Loss: 0.008
+2024-08-04 23:11:18,258 - INFO - Epoch 100, D Loss: 1.386, G Loss: 0.007
+2024-08-04 23:11:36,972 - INFO - Epoch 110, D Loss: 1.386, G Loss: 0.007
+2024-08-04 23:11:56,200 - INFO - Epoch 120, D Loss: 1.386, G Loss: 0.006
+2024-08-04 23:12:15,024 - INFO - Epoch 130, D Loss: 1.386, G Loss: 0.006
+2024-08-04 23:12:33,691 - INFO - Epoch 140, D Loss: 1.386, G Loss: 0.006
+2024-08-04 23:12:52,147 - INFO - Epoch 150, D Loss: 1.386, G Loss: 0.006
+2024-08-04 23:13:10,372 - INFO - Epoch 160, D Loss: 1.386, G Loss: 0.005
+2024-08-04 23:13:30,828 - INFO - Epoch 170, D Loss: 1.386, G Loss: 0.005
+2024-08-04 23:13:51,149 - INFO - Epoch 180, D Loss: 1.386, G Loss: 0.005
+2024-08-04 23:13:56,979 - INFO - GAN Train RMSE: 4.004
+2024-08-04 23:13:56,979 - INFO - Train on 30 days period
+2024-08-04 23:13:56,979 - INFO - Prediction 1 day/days ahead
+2024-08-04 23:13:57,089 - INFO - Shape of X: (3986, 30, 12)
+2024-08-04 23:13:57,089 - INFO - Shape of next y: (3986, 1)
+2024-08-04 23:13:57,089 - INFO - Shape of y: (3986, 30, 1)
+2024-08-04 23:13:57,089 - INFO - Parameters : learning rate = 0.001, beta 1 = 0.9, beta 2 = 0.999, epsilon = 1e-07
+2024-08-04 23:13:57,089 - INFO - Epochs : 180
+2024-08-04 23:14:39,423 - INFO - Epoch 10, D Loss: 1.392, G Loss: 0.066
+2024-08-04 23:15:09,623 - INFO - Epoch 20, D Loss: 1.388, G Loss: 0.035
+2024-08-04 23:15:40,010 - INFO - Epoch 30, D Loss: 1.387, G Loss: 0.023
+2024-08-04 23:16:10,206 - INFO - Epoch 40, D Loss: 1.387, G Loss: 0.014
+2024-08-04 23:16:40,613 - INFO - Epoch 50, D Loss: 1.386, G Loss: 0.013
+2024-08-04 23:17:11,443 - INFO - Epoch 60, D Loss: 1.386, G Loss: 0.011
+2024-08-04 23:17:42,976 - INFO - Epoch 70, D Loss: 1.386, G Loss: 0.010
+2024-08-04 23:18:16,117 - INFO - Epoch 80, D Loss: 1.386, G Loss: 0.009
+2024-08-04 23:18:49,625 - INFO - Epoch 90, D Loss: 1.386, G Loss: 0.008
+2024-08-04 23:19:23,427 - INFO - Epoch 100, D Loss: 1.386, G Loss: 0.008
+2024-08-04 23:19:56,620 - INFO - Epoch 110, D Loss: 1.386, G Loss: 0.008
+2024-08-04 23:20:27,290 - INFO - Epoch 120, D Loss: 1.386, G Loss: 0.007
+2024-08-04 23:20:59,294 - INFO - Epoch 130, D Loss: 1.386, G Loss: 0.007
+2024-08-04 23:21:30,904 - INFO - Epoch 140, D Loss: 1.386, G Loss: 0.006
+2024-08-04 23:22:01,397 - INFO - Epoch 150, D Loss: 1.386, G Loss: 0.006
+2024-08-04 23:22:34,227 - INFO - Epoch 160, D Loss: 1.386, G Loss: 0.006
+2024-08-04 23:23:04,595 - INFO - Epoch 170, D Loss: 1.386, G Loss: 0.006
+2024-08-04 23:23:34,918 - INFO - Epoch 180, D Loss: 1.386, G Loss: 0.006
+2024-08-04 23:23:40,526 - INFO - GAN Train RMSE: 4.293
+2024-08-04 23:23:40,526 - INFO - Train on 60 days period
+2024-08-04 23:23:40,526 - INFO - Prediction 1 day/days ahead
+2024-08-04 23:23:40,664 - INFO - Shape of X: (3956, 60, 12)
+2024-08-04 23:23:40,664 - INFO - Shape of next y: (3956, 1)
+2024-08-04 23:23:40,665 - INFO - Shape of y: (3956, 60, 1)
+2024-08-04 23:23:40,665 - INFO - Parameters : learning rate = 0.001, beta 1 = 0.9, beta 2 = 0.999, epsilon = 1e-07
+2024-08-04 23:23:40,679 - INFO - Epochs : 180
+2024-08-04 23:25:29,219 - INFO - Epoch 10, D Loss: 1.402, G Loss: 0.069
+2024-08-04 23:26:26,087 - INFO - Epoch 20, D Loss: 1.390, G Loss: 0.032
+2024-08-04 23:27:22,833 - INFO - Epoch 30, D Loss: 1.388, G Loss: 0.016
+2024-08-04 23:28:21,587 - INFO - Epoch 40, D Loss: 1.387, G Loss: 0.012
+2024-08-04 23:29:16,347 - INFO - Epoch 50, D Loss: 1.387, G Loss: 0.011
+2024-08-04 23:30:11,407 - INFO - Epoch 60, D Loss: 1.387, G Loss: 0.010
+2024-08-04 23:31:05,604 - INFO - Epoch 70, D Loss: 1.386, G Loss: 0.009
+2024-08-04 23:32:00,774 - INFO - Epoch 80, D Loss: 1.386, G Loss: 0.009
+2024-08-04 23:32:56,355 - INFO - Epoch 90, D Loss: 1.386, G Loss: 0.008
+2024-08-04 23:33:50,640 - INFO - Epoch 100, D Loss: 1.386, G Loss: 0.008
+2024-08-04 23:34:43,939 - INFO - Epoch 110, D Loss: 1.386, G Loss: 0.007
+2024-08-04 23:35:37,316 - INFO - Epoch 120, D Loss: 1.386, G Loss: 0.007
+2024-08-04 23:36:30,707 - INFO - Epoch 130, D Loss: 1.386, G Loss: 0.006
+2024-08-04 23:37:24,556 - INFO - Epoch 140, D Loss: 1.386, G Loss: 0.006
+2024-08-04 23:38:18,908 - INFO - Epoch 150, D Loss: 1.386, G Loss: 0.006
+2024-08-04 23:39:13,513 - INFO - Epoch 160, D Loss: 1.386, G Loss: 0.006
+2024-08-04 23:40:07,752 - INFO - Epoch 170, D Loss: 1.386, G Loss: 0.006
+2024-08-04 23:41:02,113 - INFO - Epoch 180, D Loss: 1.386, G Loss: 0.005
+2024-08-04 23:41:07,983 - INFO - GAN Train RMSE: 4.326

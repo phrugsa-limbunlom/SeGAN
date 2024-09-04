@@ -1,0 +1,12 @@
+2024-08-10 23:16:58,918 - INFO - File name : result/timeGPT_result_D_152.csv
+2024-08-10 23:16:58,948 - INFO - RMSE (D) Prediction on 152 days: 39.443
+2024-08-10 23:16:59,980 - INFO - File name : result/timeGPT_result_W_21.csv
+2024-08-10 23:17:00,153 - INFO - RMSE (W) Prediction on 21 weeks: 44.569
+2024-08-10 23:17:01,347 - INFO - File name : result/timeGPT_result_ME_5.csv
+2024-08-10 23:17:01,366 - INFO - RMSE (ME) Prediction on 5 months: 97.658
+2024-08-10 23:58:35,171 - INFO - File name : result/timeGPT_result_D_152.csv
+2024-08-10 23:58:35,182 - INFO - RMSE (D) Prediction on 152 days: 39.298
+2024-08-10 23:58:35,880 - INFO - File name : result/timeGPT_result_W_21.csv
+2024-08-10 23:58:35,890 - INFO - RMSE (W) Prediction on 21 weeks: 44.416
+2024-08-10 23:58:36,462 - INFO - File name : result/timeGPT_result_ME_5.csv
+2024-08-10 23:58:36,470 - INFO - RMSE (ME) Prediction on 5 months: 73.170

@@ -1,0 +1,16 @@
+2024-08-25 02:06:49,282 - INFO - Sequence length: 7
+2024-08-25 02:06:49,290 - INFO - Correct forecast ratio: 0.653
+2024-08-25 02:06:49,291 - INFO - Incorrect forecast ratio: 0.347
+2024-08-25 02:06:49,291 - INFO - Accuracy: 65.278
+2024-08-25 02:06:49,330 - INFO - Sequence length: 15
+2024-08-25 02:06:49,333 - INFO - Correct forecast ratio: 0.699
+2024-08-25 02:06:49,333 - INFO - Incorrect forecast ratio: 0.301
+2024-08-25 02:06:49,333 - INFO - Accuracy: 69.853
+2024-08-25 02:06:49,351 - INFO - Sequence length: 30
+2024-08-25 02:06:49,353 - INFO - Correct forecast ratio: 0.620
+2024-08-25 02:06:49,354 - INFO - Incorrect forecast ratio: 0.380
+2024-08-25 02:06:49,354 - INFO - Accuracy: 61.983
+2024-08-25 02:06:49,382 - INFO - Sequence length: 60
+2024-08-25 02:06:49,385 - INFO - Correct forecast ratio: 0.220
+2024-08-25 02:06:49,385 - INFO - Incorrect forecast ratio: 0.780
+2024-08-25 02:06:49,385 - INFO - Accuracy: 21.978

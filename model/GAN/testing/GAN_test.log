@@ -1,0 +1,28 @@
+2024-08-04 21:00:47,939 - INFO - Test on 7 days period
+2024-08-04 21:00:47,940 - INFO - Prediction 1 day/days ahead
+2024-08-04 21:00:48,915 - INFO - RMSE: 7.358
+2024-08-04 21:00:49,624 - INFO - Test on 15 days period
+2024-08-04 21:00:49,624 - INFO - Prediction 1 day/days ahead
+2024-08-04 21:00:50,494 - INFO - RMSE: 6.573
+2024-08-04 21:00:51,059 - INFO - Test on 30 days period
+2024-08-04 21:00:51,059 - INFO - Prediction 1 day/days ahead
+2024-08-04 21:00:51,552 - WARNING - 5 out of the last 11 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000023DC0D77D80> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-08-04 21:00:51,892 - WARNING - 6 out of the last 14 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000023DC0D77D80> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-08-04 21:00:51,907 - INFO - RMSE: 6.079
+2024-08-04 21:00:52,495 - INFO - Test on 60 days period
+2024-08-04 21:00:52,496 - INFO - Prediction 1 day/days ahead
+2024-08-04 21:00:53,489 - INFO - RMSE: 5.987
+2024-08-05 00:30:27,444 - INFO - Test on 7 days period
+2024-08-05 00:30:27,455 - INFO - Prediction 1 day/days ahead
+2024-08-05 00:30:28,534 - INFO - RMSE: 7.286
+2024-08-05 00:30:29,496 - INFO - Test on 15 days period
+2024-08-05 00:30:29,496 - INFO - Prediction 1 day/days ahead
+2024-08-05 00:30:30,409 - INFO - RMSE: 6.403
+2024-08-05 00:30:31,111 - INFO - Test on 30 days period
+2024-08-05 00:30:31,111 - INFO - Prediction 1 day/days ahead
+2024-08-05 00:30:31,650 - WARNING - 5 out of the last 11 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000241434CFD80> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-08-05 00:30:32,018 - WARNING - 6 out of the last 14 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000241434CFD80> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2024-08-05 00:30:32,068 - INFO - RMSE: 6.300
+2024-08-05 00:30:33,054 - INFO - Test on 60 days period
+2024-08-05 00:30:33,054 - INFO - Prediction 1 day/days ahead
+2024-08-05 00:30:33,950 - INFO - RMSE: 6.975
