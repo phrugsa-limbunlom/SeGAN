@@ -28,7 +28,7 @@ The results show that the proposed SE-GAN model can achieve lower RMSE scores th
 ## Additional Details
 
 ### What you may miss about the core concept of the GAN model
-More details about the methodology can be read from the blog below. Also, I wrote about what I found from training GAN with a predictive task.
+More details about the methodology can be read from the blog below. Also, I wrote about what I found from training a GAN model with a predictive task.
 https://gifttgif.medium.com/what-you-may-miss-about-the-core-concept-of-the-gan-model-f1820d3f7efc
 
 or full detail in the report: [CE901_Dissertation_2311569.pdf](https://github.com/phrugsa-limbunlom/SE-GAN-FOR-STOCK-FORECASTING/blob/main/CE901_Dissertation_2311569.pdf) or presentation: [Dissertation_PDO_2311569.pptx](https://github.com/phrugsa-limbunlom/SE-GAN-FOR-STOCK-FORECASTING/blob/main/Dissertation_PDO_2311569.pptx)
