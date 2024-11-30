@@ -13,9 +13,13 @@ Conducted sentiment analysis on Microsoft headlines using the FINBERT model (pre
 
 The pre-trained model, FINBERT, was employed to convert the headlines to sentiment scores. The model received headlines as the input data before feeding them to the pipeline to convert the text data, by using BERT tokenization, into encoded numerical representations that the model can interpret. The encoded data is then fed into the FINBERT model, a BERT-based classifier fine-tuned for financial text, to classify the label of input text. Finally, the model outputs a label (Positive, Neutral, or Negative) and a corresponding confidence score. 
 
+Code: [Sentiment Analysis] (https://github.com/phrugsa-limbunlom/SE-GAN-FOR-STOCK-FORECASTING/blob/main/sentiment-analysis/sentiment_analysis.py) 
+
 ### Generative Adversarial Networks (GANs)
 
 The Generative Adversarial Networks (GANs) model has been trained through an iterative feedback mechanism. The process commences with employing a generator model to generate closing prices, which are subsequently input into the discriminator model to receive feedback regarding the authenticity of the prices generated. Once the generator model receives feedback from the discriminator, the model will undergo optimization to generate more synthetic prices to fool the discriminator, aiming to generate prices that closely approximate actual market values.
+
+Code: [GAN model training] (https://github.com/phrugsa-limbunlom/SE-GAN-FOR-STOCK-FORECASTING/tree/main/model/GAN)
 
 ![image](https://github.com/user-attachments/assets/ba4b8ddc-2bb5-44e2-bce2-a93915606237)
 
