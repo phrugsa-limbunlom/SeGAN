@@ -5,7 +5,7 @@ This repository is part of a dissertation for a Master's degree in AI and its ap
 
 ![image](https://github.com/user-attachments/assets/f580fe0a-8418-412c-9064-cba8db7b4f36)
 
-Conducted sentiment analysis on Microsoft headlines using the FINBERT model (pre-trained NLP model) from Hugging Face and integrated the sentiment scores with the Microsoft stock data to train the Generative Adversarial Networks model (GANs) for predicting daily closing prices of Microsoft Stock.
+Conducted sentiment analysis on Microsoft headlines using the FINBERT model (pre-trained NLP model) from Hugging Face and integrated the sentiment scores with the Microsoft stock data from the EIKON database by LESEG along with the historical stock index from Yahoo Finance. The final dataset was trained by the Generative Adversarial Networks (GANs) for predicting the daily closing prices of Microsoft Stock.
 
 ### Sentiment Analysis Using FINBERT
 
@@ -15,8 +15,7 @@ The pre-trained model, FINBERT, was employed to convert the headlines to sentime
 
 ### Generative Adversarial Networks (GANs)
 
-The Generative Adversarial Networks (GANs) model has been trained through an iterative feedback mechanism. The process commences with employing a generator model to generate closing prices, which are subsequently input into the discriminator model to receive feedback regarding the authenticity of the prices generated. Once the generator model receives feedback from the discriminator, the model will undergo optimization to generate more synthetic prices to fool the discriminator, aiming to generate prices that closely
-approximate actual market values.
+The Generative Adversarial Networks (GANs) model has been trained through an iterative feedback mechanism. The process commences with employing a generator model to generate closing prices, which are subsequently input into the discriminator model to receive feedback regarding the authenticity of the prices generated. Once the generator model receives feedback from the discriminator, the model will undergo optimization to generate more synthetic prices to fool the discriminator, aiming to generate prices that closely approximate actual market values.
 
 ![image](https://github.com/user-attachments/assets/ba4b8ddc-2bb5-44e2-bce2-a93915606237)
 
