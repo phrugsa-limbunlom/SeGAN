@@ -1,6 +1,3 @@
-# SE-GAN-FOR-STOCK-FORECASTING
-This repository is part of a dissertation for a Master's degree in AI and its application in 2024
-
 ## SE-GAN: Sentiment-Enhanced GAN for Stock Price Forecasting - A Comprehensive Analysis of Short-Term Prediction
 
 ![image](https://github.com/user-attachments/assets/f580fe0a-8418-412c-9064-cba8db7b4f36)
