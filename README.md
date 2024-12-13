@@ -48,7 +48,7 @@ Code: [Sentiment Analysis](https://github.com/phrugsa-limbunlom/SE-GAN-FOR-STOCK
 
 The Generative Adversarial Networks (GANs) model has been trained by using an iterative feedback mechanism. The generator model receives the input of stock data of the previous date and predicts the closing price of the next date. For example, if the model receives the input data from 01-01-2023 to 08-01-2023, the model will predict the closing price of 09-01-2023, and this example predicts the price from 8 days-sequence length. After the generator predicts the price, which is called fake price for this methodology, the predicted price (fake price) of the generator model and the real price from the training data (the closing price of 08-01-2023) will feed into the discriminator model to classify between these two prices. The generator model aims to produce a fake price that is close enough to the real price, whereas the discriminator model aims to differentiate between fake and real prices as much as possible. As such, the objective function for  optimization during training is minimizing generator loss while  maximizing discriminator loss. This technique enables the generator model to  predict the price as closely as possible to the real price from the iterative feedback process.
 
-###Objective function of the GAN model in SE-GAN:
+### Objective function of the GAN model in SE-GAN:
 
 $$
 \min_G \max_D V(G, D) = \mathbb{E}[\log D(X_{\text{real}})] + \mathbb{E}[\log(1 - D(G(X)))]
@@ -78,9 +78,7 @@ The graph of real (blue line) and predicted (orange line) closing price change f
 
 ## Additional Details
 
-### What you may miss about the core concept of the GAN model
-More details about the methodology can be read from the blog below. Also, I wrote about what I found from training a GAN model with a predictive task.
-https://gifttgif.medium.com/what-you-may-miss-about-the-core-concept-of-the-gan-model-f1820d3f7efc
+More details about the methodology can be read from the blog [*What you may miss about the core concept of the GAN model*](https://gifttgif.medium.com/what-you-may-miss-about-the-core-concept-of-the-gan-model-f1820d3f7efc). Also, I wrote about what I found from training a GAN model with a predictive task.
 
 or full detail in the report: [CE901_Dissertation_2311569.pdf](https://github.com/phrugsa-limbunlom/SE-GAN-FOR-STOCK-FORECASTING/blob/main/CE901_Dissertation_2311569.pdf) or presentation: [Dissertation_PDO_2311569.pptx](https://github.com/phrugsa-limbunlom/SE-GAN-FOR-STOCK-FORECASTING/blob/main/Dissertation_PDO_2311569.pptx)
 
