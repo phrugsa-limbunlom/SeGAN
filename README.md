@@ -61,7 +61,7 @@ $$
 Code: [GAN model training](https://github.com/phrugsa-limbunlom/SE-GAN-FOR-STOCK-FORECASTING/tree/main/model/GAN)
 
 ## Experimental Setup
-The SE-GAN was trained using different sequence length including 7, 15, 30, and 60 days of input data from the previous date to predict the closing price of the next date. Also, the baseline models were trained with the same variable setting. The baseline models include LSTM and GRU.
+The SE-GAN was trained using different sequence lengths including 7, 15, 30, and 60 days of input data from the previous date to predict the closing price of the next date. Also, the baseline models were trained with the same variable setting. The baseline models include LSTM and GRU due to their ability to capture the sequence length of time-series data.
 
 ## Results
 The generator model of the SE-GAN was employed to predict the price from the testing data from 2024-01-01 to 2024-05-31 for evaluation. The results show that the proposed SE-GAN model can achieve lower RMSE scores than other baseline models. Also, the predicted prices yield promising results, which achieve over 69% accuracy for forecasting price change.
