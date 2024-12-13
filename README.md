@@ -2,9 +2,9 @@
 
 ![image](https://github.com/user-attachments/assets/f580fe0a-8418-412c-9064-cba8db7b4f36)
 
-SE-GAN is a framework integrating between the sentiment analysis from Microsoft headlines with the Generative Adversarial Networks (GAN) model to predict the stock price of Microsoft data. The training data was retrieved from the EIKON database provided by London Stock Exchange Group (LSEG) using API. To conduct sentiment analysis, FINBERT model was adopted to find a sentiment score of each headline. The final dataset includes Microsoft data from EIKON API, stock indexes from Yahoo Finance, and sentiment scores. The stock data used to train the model is between 2013-01-01 to 2023-12-31.
+SE-GAN is a framework that integrates sentiment analysis from Microsoft headlines with the Generative Adversarial Networks (GAN) model to predict the stock price of Microsoft data. The training data was retrieved from the EIKON database provided by the London Stock Exchange Group (LSEG) using API. To conduct sentiment analysis, the FINBERT model (the pre-trained model for financial text) was adopted to find a sentiment score for each headline. The final dataset includes Microsoft data from EIKON API, stock indexes from Yahoo Finance, and sentiment scores. The stock data used to train the model is between 2013-01-01 to 2023-12-31.
 
-**Features included in the final dataset**
+### Features included in the final dataset
 
 | Columns                  | Description                                                     |
 |--------------------------|-----------------------------------------------------------------|
@@ -26,11 +26,11 @@ SE-GAN is a framework integrating between the sentiment analysis from Microsoft 
 | CLOSE                     | Closing price of the stock for the day                          |
 
 
-### Sentiment Analysis Using FINBERT
+## Sentiment Analysis Using FINBERT
 
 ![image](https://github.com/user-attachments/assets/940bfc9f-bac2-4a97-b33e-5036e57493b7) 
 
-To do sentiment analysis, the pipeline was created by receiving the headlines input and convert text to number using BERT tokenization. Then, the encoded text was fed into the FINBERT model to classify the label of input text. The output of the model are a label (Positive, Neutral, or Negative) and a corresponding confidence score. 
+To do sentiment analysis, the pipeline was created by receiving the headlines input and converting text to numbers using BERT tokenization. Then, the encoded text was fed into the FINBERT model to classify the label of the input text. The model output is a label (Positive, Neutral, or Negative) and a corresponding confidence score. 
 
 ### Example input and output data for sentiment analysis using FINBERT
 
@@ -42,26 +42,39 @@ To do sentiment analysis, the pipeline was created by receiving the headlines in
 
 Code: [Sentiment Analysis](https://github.com/phrugsa-limbunlom/SE-GAN-FOR-STOCK-FORECASTING/blob/main/sentiment-analysis/sentiment_analysis.py) 
 
-### Generative Adversarial Networks (GANs)
+## Generative Adversarial Networks (GANs)
 
-The Generative Adversarial Networks (GANs) model has been trained by using an iterative feedback mechanism. The generator model receives the input of stock data of the previous date and predicts the closing price of the next date. For example, if the model receives the input data from 01-01-2023 to 08-01-2023, the model will predict the closing price of 09-01-2023, and this example is predicting the price from 8 days-sequence length. After the generator predict the price, which is called fake price for this methodology, the predicted price (fake price) of the generator model and the real price from the training data (the closing price of 08-01-2023) will feed into the discriminator model to classify between these two prices. The generator model aims to produce a fake price that is closely enough to the real price, whereas the discriminator model aims to differentiate between fake and real prices as much as possible. As such, the objective function for  optimization during training is minimizing generator loss while  maximizing discriminator loss. This technique enables the generator model  predict the price as much closely as possible to the real price from the iterative feedback process.
+![image](https://github.com/user-attachments/assets/12a71356-36d2-408c-9169-8ce44d787c19)
 
-**Objective function of the GAN model in SE-GAN:**
+The Generative Adversarial Networks (GANs) model has been trained by using an iterative feedback mechanism. The generator model receives the input of stock data of the previous date and predicts the closing price of the next date. For example, if the model receives the input data from 01-01-2023 to 08-01-2023, the model will predict the closing price of 09-01-2023, and this example predicts the price from 8 days-sequence length. After the generator predicts the price, which is called fake price for this methodology, the predicted price (fake price) of the generator model and the real price from the training data (the closing price of 08-01-2023) will feed into the discriminator model to classify between these two prices. The generator model aims to produce a fake price that is close enough to the real price, whereas the discriminator model aims to differentiate between fake and real prices as much as possible. As such, the objective function for  optimization during training is minimizing generator loss while  maximizing discriminator loss. This technique enables the generator model to  predict the price as closely as possible to the real price from the iterative feedback process.
+
+###Objective function of the GAN model in SE-GAN:
+
 $$
 \min_G \max_D V(G, D) = \mathbb{E}[\log D(X_{\text{real}})] + \mathbb{E}[\log(1 - D(G(X)))]
 $$
 
+$$
+\min_G \max_D V(G, D) = \mathbb{E}[\log D(X_{\text{real}})] + \mathbb{E}[\log(1 - D(X_{\text{fake}})]
+$$
+
 Code: [GAN model training](https://github.com/phrugsa-limbunlom/SE-GAN-FOR-STOCK-FORECASTING/tree/main/model/GAN)
 
-### Experimental Setup
-The SE-GAN was trained using different sequence length including 7, 15, 30, and 60 days of input data from the previous date to predict the closing price of the next date. Also, the baseline models were trained with the same variables setting. The baseline models include LSTM and GRU.
+## Experimental Setup
+The SE-GAN was trained using different sequence length including 7, 15, 30, and 60 days of input data from the previous date to predict the closing price of the next date. Also, the baseline models were trained with the same variable setting. The baseline models include LSTM and GRU.
 
-### Results
-The generator model of the SE-GAN was employed to predict the price from the testing data for evaluation. The results show that the proposed SE-GAN model can achieve lower RMSE scores than other baseline models. Also, the predicted prices yield promising results, which achieves over 69% accuracy for forecasting price change.
+## Results
+The generator model of the SE-GAN was employed to predict the price from the testing data from 2024-01-01 to 2024-05-31 for evaluation. The results show that the proposed SE-GAN model can achieve lower RMSE scores than other baseline models. Also, the predicted prices yield promising results, which achieve over 69% accuracy for forecasting price change.
 
-The graph of real and predicted closing price from varying sequence length in the experimental setup.
+The graph of real (blue line) and predicted (orange line) closing prices from varying sequence lengths in the experimental setup. 
 
-The graph of real and predicted closing price change from varying sequence length in the experimental setup.
+![image](https://github.com/user-attachments/assets/70cf84cb-a68f-4ba1-8aad-863c1b49842c)
+
+
+The graph of real (blue line) and predicted (orange line) closing price change from varying sequence lengths in the experimental setup.
+
+![image](https://github.com/user-attachments/assets/e1f2b248-86c4-469b-bf4c-915ebb8d36fa)
+
 
 ## Additional Details
 
