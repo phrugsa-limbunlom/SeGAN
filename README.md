@@ -88,3 +88,5 @@ To install all prerequisite libraries, use the following command.
 ```
 pip3 install -r /config/requirement.txt
 ```
+## Acknowledgement
+This repository is a part of a dissertation for the Master's degree in AI and its application in 2024 supervised by Dr. Michael Fairbank.
