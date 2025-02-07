@@ -1,10 +1,34 @@
-## SE-GAN: Sentiment-Enhanced GAN for Stock Price Forecasting - A Comprehensive Analysis of Short-Term Prediction
+<h1 align="center"> SE-GAN: Sentiment-Enhanced GAN for Stock Price Forecasting - A Comprehensive Analysis of Short-Term Prediction </h1>
+<br>
 
+<p align="center">
+SE-GAN: Sentiment-Enhanced GAN for Stock Price Forecasting
+  <br>
+  <a href="https://github.com/phrugsa-limbunlom/SE-GAN-FOR-STOCK-FORECASTING/blob/main/CE901_Dissertation_2311569.pdf">(Dissertation)</a>
+  <a href="https://github.com/phrugsa-limbunlom/SE-GAN-FOR-STOCK-FORECASTING/blob/main/Dissertation_PDO_2311569.pptx">(PDO)</a>
+  <br>
+  <br>
+  Author: Phrugsa Limbunlom (CSEE, University of Essex, 2024)
+</p>
+<br>
+
+<div align="center">
+  <img alt="Pandas" src="https://img.shields.io/badge/-Pandas-green?style=flat&logo=Pandas&logoColor=white">
+  <img alt="Tensorflow" src="https://img.shields.io/badge/-Tensorflow-orange?style=flat&logo=Tensorflow&logoColor=white">
+  <img alt="Hugging Face" src="https://img.shields.io/badge/-Hugging Face-yellow?style=flat&logo=HuggingFace&logoColor=white">
+</div>
+<br>
+<div align="center">
+  
 ![image](https://github.com/user-attachments/assets/f580fe0a-8418-412c-9064-cba8db7b4f36)
 
-SE-GAN is a framework that integrates sentiment analysis from Microsoft headlines with the Generative Adversarial Networks (GAN) model to predict the stock price of Microsoft data. The training data was retrieved from the EIKON database provided by the London Stock Exchange Group (LSEG) using API. To conduct sentiment analysis, the FINBERT model (the pre-trained model for financial text) was adopted to find a sentiment score for each headline. The final dataset includes Microsoft data from EIKON API, stock indexes from Yahoo Finance, and sentiment scores. The stock data used to train the model is between 2013-01-01 to 2023-12-31.
+</div>
 
-### Features included in the final dataset
+<p align="center">
+SE-GAN is a framework that integrates sentiment analysis from Microsoft headlines with the Generative Adversarial Networks (GAN) model to predict the stock price of Microsoft data. The training data was retrieved from the EIKON database provided by the London Stock Exchange Group (LSEG) using API. To conduct sentiment analysis, the FINBERT model (the pre-trained model for financial text) was adopted to find a sentiment score for each headline. The final dataset includes Microsoft data from EIKON API, stock indexes from Yahoo Finance, and sentiment scores. The stock data used to train the model is between 2013-01-01 to 2023-12-31.
+</p>
+
+## Features included in the final dataset
 
 | Columns                  | Description                                                     |
 |--------------------------|-----------------------------------------------------------------|
@@ -79,8 +103,6 @@ The graph of real (blue line) and predicted (orange line) closing price change f
 ## Additional Details
 
 More details about the methodology can be read from the blog [*What you may miss about the core concept of the GAN model*](https://gifttgif.medium.com/what-you-may-miss-about-the-core-concept-of-the-gan-model-f1820d3f7efc). Also, I wrote about what I found from training a GAN model with a predictive task.
-
-or full detail in the report: [CE901_Dissertation_2311569.pdf](https://github.com/phrugsa-limbunlom/SE-GAN-FOR-STOCK-FORECASTING/blob/main/CE901_Dissertation_2311569.pdf) or presentation: [Dissertation_PDO_2311569.pptx](https://github.com/phrugsa-limbunlom/SE-GAN-FOR-STOCK-FORECASTING/blob/main/Dissertation_PDO_2311569.pptx)
 
 ## Requirements
 
