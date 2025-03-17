@@ -95,12 +95,14 @@ The generator model of the SE-GAN was employed to predict the price from the tes
 
 The graph of real (blue line) and predicted (orange line) closing prices from varying sequence lengths in the experimental setup. 
 
-![image](https://github.com/user-attachments/assets/70cf84cb-a68f-4ba1-8aad-863c1b49842c)
+
+![GAN_predicted_price](https://github.com/user-attachments/assets/cc17f355-542c-4142-b250-74055ec57cf7)
 
 
 The graph of real (blue line) and predicted (orange line) closing price change from varying sequence lengths in the experimental setup.
 
-![image](https://github.com/user-attachments/assets/e1f2b248-86c4-469b-bf4c-915ebb8d36fa)
+
+![GAN_price_change](https://github.com/user-attachments/assets/3d71f1a2-a748-4486-926d-a115a9854a7d)
 
 
 ## Additional Details
