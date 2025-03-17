@@ -102,7 +102,7 @@ The graph of real (blue line) and predicted (orange line) closing prices from va
 The graph of real (blue line) and predicted (orange line) closing price change from varying sequence lengths in the experimental setup.
 
 
-![GAN_price_change](https://github.com/user-attachments/assets/3d71f1a2-a748-4486-926d-a115a9854a7d)
+![GAN_price_change](https://github.com/user-attachments/assets/801ac480-1371-453a-9fc5-f7a823f136ec)
 
 
 ## Additional Details
