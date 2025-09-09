@@ -4,6 +4,7 @@
 <p align="center">
 SE-GAN: Sentiment-Enhanced GAN for Stock Price Forecasting
   <br>
+  <a href="https://doi.org/10.36227/techrxiv.175742717.74182135/v1">(Paper)</a>
   <a href="https://github.com/phrugsa-limbunlom/SE-GAN-FOR-STOCK-FORECASTING/blob/main/CE901_Dissertation_2311569.pdf">(Dissertation)</a>
   <a href="https://github.com/phrugsa-limbunlom/SE-GAN-FOR-STOCK-FORECASTING/blob/main/Dissertation_PDO_2311569.pptx">(PDO)</a>
   <br>
